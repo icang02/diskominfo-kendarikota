@@ -1,0 +1,19 @@
+services:
+  dikominfo:
+    image: dikominfo:1.0
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8001:8000"
+      - "5173:5173"
+    volumes:
+      - .:/app
+      - /app/node_modules
+      - /vendor
+    networks:
+      - mysql-phpmyadmin_mysql_network
+
+networks:
+  mysql-phpmyadmin_mysql_network:
+    external: true
