@@ -20,7 +20,7 @@
           'button' => [
               [
                   'label' => 'Ajukan Layanan',
-                  'href' => '/',
+                  'href' => '#section-layanan',
               ],
               [
                   'label' => 'Tentang Kami',
@@ -67,8 +67,7 @@
 <section class="slider">
   <div class="hero-slider">
     @foreach ($sliders as $slider)
-      <div class="single-slider"
-        style="background-image: url('{{ asset($slider['image']) }}">
+      <div class="single-slider" style="background-image: url('{{ asset($slider['image']) }}">
         <div class="custom-overlay"></div>
         <div class="container content-overlay">
           <div class="row">

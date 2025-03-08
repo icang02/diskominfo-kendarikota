@@ -13,7 +13,7 @@
 
 <header class="header">
   <!-- Topbar -->
-  <div class="topbar">
+  <div class="topbar d-none d-md-block">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 col-md-5 col-12">

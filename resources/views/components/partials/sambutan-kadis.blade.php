@@ -23,7 +23,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-7 col-12">
+      <div class="col-lg-7 col-12 order-2 order-md-1">
         <!-- Start Choose Left -->
         <div class="choose-left">
           <h3>Ir. NISMAWATI, M.Si</h3>
@@ -56,7 +56,7 @@
         </div>
         <!-- End Choose Left -->
       </div>
-      <div class="col-lg-5 col-12 mt-5 mt-md-0">
+      <div class="col-lg-5 col-12 order-1 order-md-2 mb-4 mb-md-0">
         <!-- Start Choose Rights -->
         <img style="width: 100%;" src="{{ asset('img/kadis.webp') }}" alt="image">
         <!-- End Choose Rights -->

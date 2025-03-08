@@ -48,6 +48,33 @@ Version:	1.1
 /*=============================
 	Global CSS
 ===============================*/
+/* Start my css */
+.activeMenuCategories {
+  color: #1976d1 !important;
+}
+.bline {
+  border: 1px solid red;
+}
+.ratio-4-27 {
+  object-fit: cover;
+  object-position: center;
+  aspect-ratio: 4/2.7;
+}
+.ratio-4-3 {
+  object-fit: cover;
+  object-position: center;
+  aspect-ratio: 4/3;
+}
+.ratio-16-9 {
+  object-fit: cover;
+  object-position: center;
+  aspect-ratio: 16/9;
+}
+/* End my css */
+
+/* html {
+  scroll-behavior: smooth;
+} */
 body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -1718,7 +1745,7 @@ body {
 	Start Clients CSS
 ==========================*/
 .clients {
-  background-image: url("img/client-bg.jpg");
+  background-image: url("../img/bg-counting-data.webp");
   background-size: cover;
   background-position: center;
   padding: 100px 0px;
